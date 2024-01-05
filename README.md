@@ -46,3 +46,22 @@ ssh daljit@192.168.1.145 -p 22
 curl -sfL https://get.k3s.io | sh -
 ```
 
+## Steps 5: Install Applications
+
+### Keyclock
+
+```bash
+sudo kubectl create namespace keycloak
+sudo kubectl -n keycloak create -f https://raw.githubusercontent.com/keycloak/keycloak-quickstarts/latest/kubernetes/keycloak.yaml
+
+# Wait for deplyment
+sudo kubectl -n keycloak get pods -w
+
+# Get port
+sudo kubectl -n keycloak get service keycloak -o yaml | grep nodePort
+
+# View in browser
+URL: http://192.168.1.145:31074
+USER: admin
+PASS: admin
+```
