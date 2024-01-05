@@ -1,4 +1,4 @@
-# build-server
+# dev-server
 Build server so that we can deploy and test new application
 
 ## Step 1: Install Debain
