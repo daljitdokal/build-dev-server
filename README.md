@@ -31,7 +31,7 @@ Build server so that we can deploy and test new application
 - Get local IP address
  ```bash
 # Get Local IP address
-nmcli -p device show | grep IP4.ADD | grep 1922
+nmcli -p device show | grep IP4.ADD | grep 192
 ```
 
 ## Step 3: Remote connection
