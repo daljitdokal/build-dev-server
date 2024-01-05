@@ -48,7 +48,9 @@ curl -sfL https://get.k3s.io | sh -
 
 ## Steps 5: Install Applications
 
-### Keyclock
+--------
+
+### Keycloak
 
 ```bash
 sudo kubectl create namespace keycloak
