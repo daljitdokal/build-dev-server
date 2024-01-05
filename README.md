@@ -28,3 +28,14 @@ Build server so that we can deploy and test new application
    sudo apt install htop curl git sed
   ```
 - Update `.bashrc` to your default setups
+- Get local IP address
+ ```bash
+# Get Local IP address
+nmcli -p device show | grep IP4.ADD | grep 1922
+```
+
+## Step 3: Remote connection
+
+```bash
+ssh daljit@192.168.1.145 -p 22
+```
