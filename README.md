@@ -39,3 +39,10 @@ nmcli -p device show | grep IP4.ADD | grep 1922
 ```bash
 ssh daljit@192.168.1.145 -p 22
 ```
+
+## Step 4: Install `K3S`
+
+```bash
+curl -sfL https://get.k3s.io | sh -
+```
+
