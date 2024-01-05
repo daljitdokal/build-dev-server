@@ -1,7 +1,7 @@
 # build-server
 Build server so that we can deploy and test new application
 
-## Step 1: Install debain
+## Step 1: Install Debain
 
 - Download Debian: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso
 - Create bootable pendrive with rufus
@@ -10,7 +10,7 @@ Build server so that we can deploy and test new application
 - Choose GUI to install debian
 - Make sure to select `sshd` installation for remote acces
 
-## Step 2: Debain detup
+## Step 2: Server Default Setup
 
 - Add `authorized_keys`
   ```bash
