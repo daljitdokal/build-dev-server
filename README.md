@@ -3,7 +3,9 @@ Build server so that we can deploy and test new application
 
 ## Step 1: Install Debain
 
-- Download Debian: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso
+- Download Debian:
+  - (old) https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso
+  - (latest) https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
 - Create bootable pendrive with rufus
 - Plugin into device and boot the machine
 - Make sure to add network cable for internet
