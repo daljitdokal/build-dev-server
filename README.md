@@ -50,6 +50,14 @@ ssh daljit@192.168.1.145 -p 22
 
 ```bash
 curl -sfL https://get.k3s.io | sh -
+
+# Post Installarion
+sudo kubectl --kubeconfig /etc/rancher/k3s/k3s.yaml 
+get pods --all-namespaces
+sudo cp -i /etc/rancher/k3s/k3s.yaml $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+export KUBECONFIG=~/.kube/config
+sudo kubectl get svc --all-namespaces  
 ```
 
 ## Steps 5: Install Applications
