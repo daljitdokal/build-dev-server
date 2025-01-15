@@ -20,6 +20,7 @@ Build server so that we can deploy and test new application
   echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD+QBBGvwHru82xozEKGaahE2/cyqqT9AqvPA57NyjweIVmH3zsvIpxoqRkMAEIejKENTLm/nD+q+n5OFVcKccnj09ifb0A8RzSFp7FzUt7fCH7MZLzyNGYoeOjA49endp2vSXR4B7HZCMDJQ5i2c694/xcNXUDW6Pd/r+LRfZj5YMq2I7fWmOj2gdKgYTbIQD9f5a6e+NOPx4ZiYEGWwT8y7BgrXLxYgPGBes4K8aFsT7jsWxmyhTo2TvEXPo1lMThW9jr7sSp0e9y5Ufx+SYhjqoKknN9yc/CzQFdAjic+K/tmLCdw8gMuJa8YAPkDceOz/FD5SC0gLgSSspGiIOZ geekywebmaster-desktop" >> ~/.ssh/authorized_key
   ```
 - Restart `sshd` service
+  Run `su` and `sudo adduser user_name sudo` to add the user into the sudo group as root. Reboot when done with `/sbin/reboot`.
   ```bash
   systemctl status sshd
   systemctl restart sshd
