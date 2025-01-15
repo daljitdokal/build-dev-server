@@ -3,14 +3,13 @@ Build server so that we can deploy and test new application
 
 ## Step 1: Install Debain
 
-- Download Debian:
-  - (old) https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso
-  - (latest) https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
+- Download Debian: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
 - Create bootable pendrive with rufus
-- Plugin into device and boot the machine
-- Make sure to add network cable for internet
-- Choose GUI to install debian
-- Make sure to select `sshd` installation for remote acces
+- Boot
+  - Plugin into device and boot the machine
+  - Make sure to add network cable for internet
+  - Choose GUI to install debian
+  - Make sure to select `sshd` installation for remote acces
 
 ## Step 2: Server Default Setup
 
