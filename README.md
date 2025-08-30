@@ -7,6 +7,8 @@ Build server so that we can deploy and test new application
   - https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso OR
   - https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.0.0-amd64-netinst.iso
 - Create bootable pendrive with rufus
+- <img width="475" height="596" alt="image" src="https://github.com/user-attachments/assets/45c86acf-2015-416e-951e-a923f467e382" />
+
 - Boot
   - Plugin into device and boot the machine
   - Make sure to add network cable for internet
